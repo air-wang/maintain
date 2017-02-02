@@ -1,0 +1,14 @@
+# config/app.yml for rails-settings-cached
+defaults: &defaults
+  foo: "Foo"
+  bar: 123
+  # rack_attack: "true"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
