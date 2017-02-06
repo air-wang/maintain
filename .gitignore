@@ -21,3 +21,5 @@
 /config/redis.yml
 /config/database.yml
 /config/secrets.yml
+# Ignore Spring files.
+/spring/*.pid
